@@ -1,52 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial;
-    margin: 0;
-    padding: 20px;
-    background: #f4f4f4;
 }
-
 .class1 {
     display: flex;
-    width: 900px;
-    background: white;
-    padding: 20px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.class2 {
-    flex: 1;
-    position: relative;
-}
-
-.class2 img {
-    width: 100%;
-}
-
-.class3 {
-    background: white;
-    padding: 10px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.class4 {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    padding: 15px 30px;
+    background: rgb(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
 }
-.class5 {
+.class3 {
+    font-size: 25px;
     font-weight: bold;
 }
-.class6 {
-    flex: 1;
-    padding-left: 20px;
+.class5 {
+    position: relative;
+    background: url(https://www.mammut.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fl595fda2nfqd%2F24OKDeXJBAIwxP4QR9Wst2%2Fcb12f0aec90153929e02bb8d7fd328c0%2FFast_Hiking_SS25_Slovenia_4502.jpg&w=1536&q=85);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
-.class7 {
-    display: inline-block;
-    margin-top: 10px;
-    color: gray;
-    text-decoration: none;
+.class6 {
+    background: rgba(0, 0, 0,0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
 }
